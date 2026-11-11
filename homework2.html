@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .dparentform{
+            width: 800px;
+            height: 100px;
+
+        }
+        .hrcontainer{  /* контйнер для разделитльных полос*/
+            gap: 50px;
+            display: flex;
+        }
+        .from-row{
+            gap: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .from-row label{
+            width: 140px;
+            flex-shrink: 0;
+        }
+        .textstyle{
+            font-size: small;
+        }
+        .hrlength1{ /*размер 1 полосы*/
+            width: 90px;
+            
+        }
+        .hrlength2{ /*размер 2ой полосы*/
+            width: 620px;
+           
+        }
+        .txinputlenghth1{
+            width: 300px;
+        }
+
+
+
+
+    </style>
+</head>
+
+<body>
+    <form class="dparentform">
+        <div>
+            <th>
+                Dynamic Converter New HTML Conversion Template Form
+                <hr>
+            </th>
+        </div>
+        <div>
+            <span style="color: blue;">Administration --> Dynamic Converter Admin</span> --> Dynamic Converter New HTML Conversion Template Form
+        </div>
+        <div class="hrcontainer">
+            <hr class="hrlength1">
+            <hr class="hrlength2">
+        </div>
+        <div class="from-row">
+            <label class="textstyle">* Content ID </label> 
+            <input class="txinputlenghth1" type="text"> 
+        </div>
+        <div class="from-row">
+            <label class="textstyle">* Type </label> 
+            <select class="txinputlenghth1">
+                <option> Adacct - Acme Accounting Department</option>
+            </select> 
+        </div>
+        <div class="from-row">
+            <label class="textstyle">* Title </label> 
+            <input class="txinputlenghth1" type="text"> 
+        </div>
+
+         <div class="from-row">
+            <label class="textstyle">* File </label> 
+            <input class="txinputlenghth1" type="text"> 
+         </div>
+
+        <div class="from-row">
+            <label class="textstyle">* Security Group </label> 
+             <select>
+                <option> Public </option>
+            </select> 
+         </div>
+
+        <div class="hrcontainer">
+            <hr class="hrlength1">
+            <hr class="hrlength2">
+        </div>
+
+        <div class="hrcontainer">
+            <span class="textstyle" style="color: red;"> Template Format </span> 
+            <input type = "radio" name="HTML" value = "HTML Convesrion Template"> HTML Convesrion Template
+            <input type = "radio" name="HTML" value = " Classic HTML Convesrion Template"> Classic HTML Convesrion Template
+        </div>
+
+        <div class="hrcontainer">
+            <hr class="hrlength1">
+            <hr class="hrlength2">
+        </div>
+
+         <div class="from-row">
+            <label class="textstyle"> * Revision </label> 
+            <input class="txinputlenghth1" type="text"> 
+        </div>
+
+        <div class="from-row">
+            <label class="textstyle"> * Folder </label> 
+            <input class="txinputlenghth1" type="text"> 
+            <input type="button" value="Browse...">
+        </div>
+
+         <div class="from-row">
+            <label class="textstyle">* Hidden </label> 
+             <select style="width: 60px;">
+                <option>  </option>
+            </select> 
+         </div>
+
+         <div class="from-row">
+            <label class="textstyle"> * Comments </label> 
+            <textarea style="width:270px; height: 80px;"> </textarea>
+        </div>
+
+        <div class="from-row">
+            <label class="textstyle"> * User Access List </label> 
+            <textarea style="width:270px; height: 80px;"> </textarea>
+        </div>
+
+        <div class="from-row">
+            <label class="textstyle"> * Trash Delete Old Name </label> 
+            <textarea style="width:270px; height: 80px;"> </textarea>
+        </div>
+
+        <div class="from-row">
+            <label class="textstyle"> * Trash Delete Location</label>
+            <input class="txinputlenghth1" type="text">
+            <input type="button" value="Browse...">
+        </div>
+
+        <div class="from-row">
+            <label class="textstyle"> * Trash Delete Date </label>
+            <input class="txinputlenghth1" type="text">
+            <input type="button" value="📆">
+        </div>
+
+        <div class="from-row">
+            <label class="textstyle"> * Trash Deleter </label>
+            <input class="txinputlenghth1" type="text">
+        </div>
+
+    </form>
+
+</body>
+</html>

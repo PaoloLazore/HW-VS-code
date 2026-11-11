@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     
+        .parent{
+            background-color: rgb(240, 230, 230);
+            width: 450px;
+            height: 350px;
+
+        }
+
+        .thbackgroundcolor{
+            background-color: rgb(194, 146, 239);
+        }
+
+        .tdbackground{
+            background-color: white;
+        }
+
+        .thalignment{ /* выравнивание текста для заголоовка*/
+            text-align: center;
+        }
+
+        .tbdemensions{ /* размеры ячеек*/
+            width: 270px;
+            height: 20px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="parent">
+        <table>
+            <tr>
+                <th class="thbackgroundcolor tbdemensions">
+                    Name
+                </th>
+
+                <th class="thbackgroundcolor tbdemensions">
+                    Value
+                </th>
+
+            </tr>
+
+             <tr>
+                <td class="tdbackground tbdemensions">
+                    Name
+                </td>
+                <td>
+                    <input type="text" class="tbdemensions">
+                </td>
+            </tr>
+
+             <tr>
+                <td class="tdbackground tbdemensions">
+                    Sex
+                </td>
+                <td class="tdbackground tbdemensions">
+                    <input type="radio" name="sex" value="male">
+                    Male
+                    <br>
+                    <input type="radio" name="sex" value="female" >
+                    Female
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="tdbackground tbdemensions">
+                    Eye Color
+                </td>
+                <td class="tdbackground tbdemensions">
+                    <select>
+                        <option>
+                            Green
+                        </option>
+                        <option>
+                            Red
+                        </option>
+                    </select>
+                </td>
+
+            </tr>
+                <td class="tdbackground tbdemensions">
+                    Check all that apply
+                </td>
+                <td class="tdbackground tbdemensions">
+                    <input type="checkbox">
+                        Over 6 feet tall
+                     <br>
+                    <input type="checkbox">
+                        Over 200 pounds
+                </td>
+            </tr>
+
+            <tr>
+                <td class="tdbackground" colspan="2" >
+                    Describe your athletic ability:
+                    <br>
+                     <textarea style="height: 120px; width: 437px;">
+
+                    </textarea>
+                </td>
+            </tr>
+
+             <tr>
+                <td class="tdbackground thalignment" colspan="2" >
+                    <input type="button" value="Enter my information" >
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</body>
+
+</html>
